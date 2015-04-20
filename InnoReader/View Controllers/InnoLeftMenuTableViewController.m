@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Chong Li. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "InnoLeftMenuTableViewController.h"
 
-@interface ViewController ()
+@interface InnoLeftMenuTableViewController ()
 
 @end
 
-@implementation ViewController
+@implementation InnoLeftMenuTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
