@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		535C3FBE1AE4E7DF002D532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FBD1AE4E7DF002D532E /* main.m */; };
 		535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FC01AE4E7DF002D532E /* AppDelegate.m */; };
-		535C3FC41AE4E7DF002D532E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FC31AE4E7DF002D532E /* ViewController.m */; };
 		535C3FC71AE4E7DF002D532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC51AE4E7DF002D532E /* Main.storyboard */; };
 		535C3FC91AE4E7DF002D532E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC81AE4E7DF002D532E /* Images.xcassets */; };
 		535C3FCC1AE4E7DF002D532E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FCA1AE4E7DF002D532E /* LaunchScreen.xib */; };
 		535C3FD81AE4E7DF002D532E /* InnoReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FD71AE4E7DF002D532E /* InnoReaderTests.m */; };
+		535C3FE81AE4EDDB002D532E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FE71AE4EDDB002D532E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		535C3FBD1AE4E7DF002D532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		535C3FBF1AE4E7DF002D532E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		535C3FC01AE4E7DF002D532E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		535C3FC21AE4E7DF002D532E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		535C3FC31AE4E7DF002D532E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		535C3FC61AE4E7DF002D532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		535C3FC81AE4E7DF002D532E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		535C3FCB1AE4E7DF002D532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		535C3FD11AE4E7DF002D532E /* InnoReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnoReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C3FD61AE4E7DF002D532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535C3FD71AE4E7DF002D532E /* InnoReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnoReaderTests.m; sourceTree = "<group>"; };
+		535C3FE61AE4EDDB002D532E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "View Controllers/ViewController.h"; sourceTree = "<group>"; };
+		535C3FE71AE4EDDB002D532E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "View Controllers/ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,7 @@
 		535C3FBA1AE4E7DF002D532E /* InnoReader */ = {
 			isa = PBXGroup;
 			children = (
-				535C3FBF1AE4E7DF002D532E /* AppDelegate.h */,
-				535C3FC01AE4E7DF002D532E /* AppDelegate.m */,
-				535C3FC21AE4E7DF002D532E /* ViewController.h */,
-				535C3FC31AE4E7DF002D532E /* ViewController.m */,
+				535C3FE91AE4EDDF002D532E /* View Controllers */,
 				535C3FC51AE4E7DF002D532E /* Main.storyboard */,
 				535C3FC81AE4E7DF002D532E /* Images.xcassets */,
 				535C3FCA1AE4E7DF002D532E /* LaunchScreen.xib */,
@@ -96,6 +93,8 @@
 		535C3FBB1AE4E7DF002D532E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				535C3FBF1AE4E7DF002D532E /* AppDelegate.h */,
+				535C3FC01AE4E7DF002D532E /* AppDelegate.m */,
 				535C3FBC1AE4E7DF002D532E /* Info.plist */,
 				535C3FBD1AE4E7DF002D532E /* main.m */,
 			);
@@ -117,6 +116,15 @@
 				535C3FD61AE4E7DF002D532E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		535C3FE91AE4EDDF002D532E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				535C3FE61AE4EDDB002D532E /* ViewController.h */,
+				535C3FE71AE4EDDB002D532E /* ViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				535C3FC41AE4E7DF002D532E /* ViewController.m in Sources */,
+				535C3FE81AE4EDDB002D532E /* ViewController.m in Sources */,
 				535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */,
 				535C3FBE1AE4E7DF002D532E /* main.m in Sources */,
 			);
@@ -418,6 +426,7 @@
 				535C3FDD1AE4E7DF002D532E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		535C3FDE1AE4E7DF002D532E /* Build configuration list for PBXNativeTarget "InnoReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				535C3FE01AE4E7DF002D532E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
