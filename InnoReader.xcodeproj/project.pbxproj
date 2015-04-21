@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5354EBFE1AE5C95A0026B086 /* InnoArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */; };
-		5354EC011AE5D49A0026B086 /* InnoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */; };
+		5354EC011AE5D49A0026B086 /* InnoThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */; };
 		5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */; };
+		5354EC0B1AE602130026B086 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC081AE602130026B086 /* CarbonSwipeRefresh.m */; };
+		5354EC0C1AE602130026B086 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC0A1AE602130026B086 /* CarbonTabSwipeNavigation.m */; };
+		5354EC0F1AE60E860026B086 /* InnoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */; };
 		535C3FBE1AE4E7DF002D532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FBD1AE4E7DF002D532E /* main.m */; };
 		535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FC01AE4E7DF002D532E /* AppDelegate.m */; };
 		535C3FC71AE4E7DF002D532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC51AE4E7DF002D532E /* Main.storyboard */; };
@@ -76,10 +79,17 @@
 /* Begin PBXFileReference section */
 		5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoArticleDetailViewController.h; path = "View Controllers/InnoArticleDetailViewController.h"; sourceTree = "<group>"; };
 		5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoArticleDetailViewController.m; path = "View Controllers/InnoArticleDetailViewController.m"; sourceTree = "<group>"; };
-		5354EBFF1AE5D49A0026B086 /* InnoSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSecondViewController.h; path = "View Controllers/InnoSecondViewController.h"; sourceTree = "<group>"; };
-		5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSecondViewController.m; path = "View Controllers/InnoSecondViewController.m"; sourceTree = "<group>"; };
+		5354EBFF1AE5D49A0026B086 /* InnoThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoThirdViewController.h; path = "View Controllers/InnoThirdViewController.h"; sourceTree = "<group>"; };
+		5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoThirdViewController.m; path = "View Controllers/InnoThirdViewController.m"; sourceTree = "<group>"; };
 		5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSearchPickerViewController.h; path = "View Controllers/InnoSearchPickerViewController.h"; sourceTree = "<group>"; };
 		5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSearchPickerViewController.m; path = "View Controllers/InnoSearchPickerViewController.m"; sourceTree = "<group>"; };
+		5354EC061AE602130026B086 /* CarbonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonKit.h; sourceTree = "<group>"; };
+		5354EC071AE602130026B086 /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		5354EC081AE602130026B086 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		5354EC091AE602130026B086 /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		5354EC0A1AE602130026B086 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		5354EC0D1AE60E860026B086 /* InnoSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSecondViewController.h; path = "View Controllers/InnoSecondViewController.h"; sourceTree = "<group>"; };
+		5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSecondViewController.m; path = "View Controllers/InnoSecondViewController.m"; sourceTree = "<group>"; };
 		535C3FB81AE4E7DF002D532E /* InnoReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnoReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C3FBC1AE4E7DF002D532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535C3FBD1AE4E7DF002D532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -202,6 +212,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5354EC051AE602130026B086 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				5354EC061AE602130026B086 /* CarbonKit.h */,
+				5354EC071AE602130026B086 /* CarbonSwipeRefresh.h */,
+				5354EC081AE602130026B086 /* CarbonSwipeRefresh.m */,
+				5354EC091AE602130026B086 /* CarbonTabSwipeNavigation.h */,
+				5354EC0A1AE602130026B086 /* CarbonTabSwipeNavigation.m */,
+			);
+			name = CarbonKit;
+			path = Libraries/CarbonKit;
+			sourceTree = "<group>";
+		};
 		535C3FAF1AE4E7DF002D532E = {
 			isa = PBXGroup;
 			children = (
@@ -269,12 +292,14 @@
 				535C40791AE50492002D532E /* InnoLeftMenuTableViewController.m */,
 				535C407E1AE53768002D532E /* InnoMainTableViewController.h */,
 				535C407F1AE53768002D532E /* InnoMainTableViewController.m */,
-				5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */,
-				5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */,
-				5354EBFF1AE5D49A0026B086 /* InnoSecondViewController.h */,
-				5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */,
+				5354EC0D1AE60E860026B086 /* InnoSecondViewController.h */,
+				5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */,
+				5354EBFF1AE5D49A0026B086 /* InnoThirdViewController.h */,
+				5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */,
 				5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */,
 				5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */,
+				5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */,
+				5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -282,6 +307,7 @@
 		535C3FED1AE4F884002D532E /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5354EC051AE602130026B086 /* CarbonKit */,
 				535C3FEE1AE4F8A4002D532E /* BWMCoverView */,
 				535C3FF41AE4F8A4002D532E /* MBProgressHUD */,
 				535C3FF71AE4F8A4002D532E /* MJRefresh */,
@@ -547,14 +573,16 @@
 				535C40651AE4F8A4002D532E /* UIView+WebCacheOperation.m in Sources */,
 				535C40681AE4F8A4002D532E /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				535C40751AE4FAA7002D532E /* InnoHelperClass.m in Sources */,
-				5354EC011AE5D49A0026B086 /* InnoSecondViewController.m in Sources */,
+				5354EC011AE5D49A0026B086 /* InnoThirdViewController.m in Sources */,
 				535C404F1AE4F8A4002D532E /* MJRefreshGifHeader.m in Sources */,
+				5354EC0C1AE602130026B086 /* CarbonTabSwipeNavigation.m in Sources */,
 				535C40521AE4F8A4002D532E /* MJRefreshLegendHeader.m in Sources */,
 				535C40691AE4F8A4002D532E /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				535C40631AE4F8A4002D532E /* UIImageView+HighlightedWebCache.m in Sources */,
 				535C404B1AE4F8A4002D532E /* MJRefreshComponent.m in Sources */,
 				535C406A1AE4F8A4002D532E /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				535C404E1AE4F8A4002D532E /* MJRefreshGifFooter.m in Sources */,
+				5354EC0F1AE60E860026B086 /* InnoSecondViewController.m in Sources */,
 				535C407A1AE50492002D532E /* InnoLeftMenuTableViewController.m in Sources */,
 				535C405D1AE4F8A4002D532E /* SDWebImageManager.m in Sources */,
 				535C405A1AE4F8A4002D532E /* SDWebImageDecoder.m in Sources */,
@@ -562,6 +590,7 @@
 				535C406C1AE4F8A4002D532E /* WYPopoverController.m in Sources */,
 				535C405E1AE4F8A4002D532E /* SDWebImagePrefetcher.m in Sources */,
 				535C40641AE4F8A4002D532E /* UIImageView+WebCache.m in Sources */,
+				5354EC0B1AE602130026B086 /* CarbonSwipeRefresh.m in Sources */,
 				535C40461AE4F8A4002D532E /* BWMCoverView.m in Sources */,
 				535C40481AE4F8A4002D532E /* BWMCoverViewModel.m in Sources */,
 				5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */,

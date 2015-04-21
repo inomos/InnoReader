@@ -104,7 +104,7 @@
             break;
             
         case 2:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"KeZhiCachePageViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoThirdViewController"];
             [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
                                                                      withSlideOutAnimation:self.slideOutAnimationEnabled
                                                                              andCompletion:nil];
