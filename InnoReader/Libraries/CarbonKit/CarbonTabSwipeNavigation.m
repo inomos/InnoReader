@@ -283,7 +283,7 @@
 
 - (void)setTintColor:(UIColor *)tintColor {
 	tabScrollView.backgroundColor = tintColor;
-	[rootViewController.navigationController.navigationBar setBarTintColor:tintColor];
+	//[rootViewController.navigationController.navigationBar setBarTintColor:tintColor];
 }
 
 - (void)setNormalColor:(UIColor *)color {

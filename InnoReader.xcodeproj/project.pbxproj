@@ -13,6 +13,10 @@
 		5354EC0B1AE602130026B086 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC081AE602130026B086 /* CarbonSwipeRefresh.m */; };
 		5354EC0C1AE602130026B086 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC0A1AE602130026B086 /* CarbonTabSwipeNavigation.m */; };
 		5354EC0F1AE60E860026B086 /* InnoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */; };
+		5354EC121AE62FAE0026B086 /* InnoContentViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC111AE62FAE0026B086 /* InnoContentViewController_1.m */; };
+		5354EC151AE64C330026B086 /* InnoContentViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC141AE64C330026B086 /* InnoContentViewController_2.m */; };
+		5354EC181AE64FBB0026B086 /* InnoMailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC171AE64FBB0026B086 /* InnoMailPageViewController.m */; };
+		5354EC1A1AE6502A0026B086 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5354EC191AE6502A0026B086 /* MessageUI.framework */; };
 		535C3FBE1AE4E7DF002D532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FBD1AE4E7DF002D532E /* main.m */; };
 		535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FC01AE4E7DF002D532E /* AppDelegate.m */; };
 		535C3FC71AE4E7DF002D532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC51AE4E7DF002D532E /* Main.storyboard */; };
@@ -90,6 +94,13 @@
 		5354EC0A1AE602130026B086 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
 		5354EC0D1AE60E860026B086 /* InnoSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSecondViewController.h; path = "View Controllers/InnoSecondViewController.h"; sourceTree = "<group>"; };
 		5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSecondViewController.m; path = "View Controllers/InnoSecondViewController.m"; sourceTree = "<group>"; };
+		5354EC101AE62FAE0026B086 /* InnoContentViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoContentViewController_1.h; path = "View Controllers/InnoContentViewController_1.h"; sourceTree = "<group>"; };
+		5354EC111AE62FAE0026B086 /* InnoContentViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoContentViewController_1.m; path = "View Controllers/InnoContentViewController_1.m"; sourceTree = "<group>"; };
+		5354EC131AE64C330026B086 /* InnoContentViewController_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoContentViewController_2.h; path = "View Controllers/InnoContentViewController_2.h"; sourceTree = "<group>"; };
+		5354EC141AE64C330026B086 /* InnoContentViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoContentViewController_2.m; path = "View Controllers/InnoContentViewController_2.m"; sourceTree = "<group>"; };
+		5354EC161AE64FBB0026B086 /* InnoMailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoMailPageViewController.h; path = "View Controllers/InnoMailPageViewController.h"; sourceTree = "<group>"; };
+		5354EC171AE64FBB0026B086 /* InnoMailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoMailPageViewController.m; path = "View Controllers/InnoMailPageViewController.m"; sourceTree = "<group>"; };
+		5354EC191AE6502A0026B086 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		535C3FB81AE4E7DF002D532E /* InnoReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnoReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C3FBC1AE4E7DF002D532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535C3FBD1AE4E7DF002D532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -199,6 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5354EC1A1AE6502A0026B086 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +240,7 @@
 		535C3FAF1AE4E7DF002D532E = {
 			isa = PBXGroup;
 			children = (
+				5354EC191AE6502A0026B086 /* MessageUI.framework */,
 				535C3FBA1AE4E7DF002D532E /* InnoReader */,
 				535C3FD41AE4E7DF002D532E /* InnoReaderTests */,
 				535C3FB91AE4E7DF002D532E /* Products */,
@@ -296,10 +309,16 @@
 				5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */,
 				5354EBFF1AE5D49A0026B086 /* InnoThirdViewController.h */,
 				5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */,
+				5354EC161AE64FBB0026B086 /* InnoMailPageViewController.h */,
+				5354EC171AE64FBB0026B086 /* InnoMailPageViewController.m */,
 				5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */,
 				5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */,
 				5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */,
 				5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */,
+				5354EC101AE62FAE0026B086 /* InnoContentViewController_1.h */,
+				5354EC111AE62FAE0026B086 /* InnoContentViewController_1.m */,
+				5354EC131AE64C330026B086 /* InnoContentViewController_2.h */,
+				5354EC141AE64C330026B086 /* InnoContentViewController_2.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -581,6 +600,7 @@
 				535C40631AE4F8A4002D532E /* UIImageView+HighlightedWebCache.m in Sources */,
 				535C404B1AE4F8A4002D532E /* MJRefreshComponent.m in Sources */,
 				535C406A1AE4F8A4002D532E /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				5354EC121AE62FAE0026B086 /* InnoContentViewController_1.m in Sources */,
 				535C404E1AE4F8A4002D532E /* MJRefreshGifFooter.m in Sources */,
 				5354EC0F1AE60E860026B086 /* InnoSecondViewController.m in Sources */,
 				535C407A1AE50492002D532E /* InnoLeftMenuTableViewController.m in Sources */,
@@ -588,6 +608,7 @@
 				535C405A1AE4F8A4002D532E /* SDWebImageDecoder.m in Sources */,
 				535C40511AE4F8A4002D532E /* MJRefreshLegendFooter.m in Sources */,
 				535C406C1AE4F8A4002D532E /* WYPopoverController.m in Sources */,
+				5354EC151AE64C330026B086 /* InnoContentViewController_2.m in Sources */,
 				535C405E1AE4F8A4002D532E /* SDWebImagePrefetcher.m in Sources */,
 				535C40641AE4F8A4002D532E /* UIImageView+WebCache.m in Sources */,
 				5354EC0B1AE602130026B086 /* CarbonSwipeRefresh.m in Sources */,
@@ -610,6 +631,7 @@
 				535C40551AE4F8A4002D532E /* UIView+MJExtension.m in Sources */,
 				535C40611AE4F8A4002D532E /* UIImage+MultiFormat.m in Sources */,
 				535C407D1AE53524002D532E /* InnoArticleTableViewCell.m in Sources */,
+				5354EC181AE64FBB0026B086 /* InnoMailPageViewController.m in Sources */,
 				535C40801AE53768002D532E /* InnoMainTableViewController.m in Sources */,
 				535C405F1AE4F8A4002D532E /* UIButton+WebCache.m in Sources */,
 				535C40531AE4F8A4002D532E /* UIScrollView+MJExtension.m in Sources */,

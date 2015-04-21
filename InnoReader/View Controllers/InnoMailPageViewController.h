@@ -1,5 +1,5 @@
 //
-//  InnoSecondViewController.h
+//  InnoMailPageViewController.h
 //  InnoReader
 //
 //  Created by Chong Li on 21/04/2015.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
-#import "InnoContentViewController_1.h"
-#import "InnoContentViewController_2.h"
 
-@interface InnoSecondViewController : UIViewController
+@interface InnoMailPageViewController : UIViewController
 
 @end

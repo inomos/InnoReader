@@ -11,7 +11,7 @@
         <!--首页-->
         <scene sceneID="UjI-VR-UW3">
             <objects>
-                <tableViewController storyboardIdentifier="KeZhiMainTableViewController" id="maF-Y2-9lS" customClass="InnoMainTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="InnoMainTableViewController" id="maF-Y2-9lS" customClass="InnoMainTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="78" sectionHeaderHeight="22" sectionFooterHeight="22" id="hqs-2U-2Y1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -518,59 +518,7 @@
                     <view key="view" contentMode="scaleToFill" id="ET3-oc-RLX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是第二个视图控制器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCq-8a-HpF">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="16" id="igr-8w-fVC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="16"/>
-                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="igr-8w-fVC"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="igr-8w-fVC"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="YCq-8a-HpF" firstAttribute="leading" secondItem="ET3-oc-RLX" secondAttribute="leadingMargin" id="0kb-Th-4UB"/>
-                            <constraint firstItem="YCq-8a-HpF" firstAttribute="trailing" secondItem="ET3-oc-RLX" secondAttribute="trailingMargin" id="L5z-lN-C4f"/>
-                            <constraint firstAttribute="centerY" secondItem="YCq-8a-HpF" secondAttribute="centerY" id="gZr-ck-naj"/>
-                            <constraint firstItem="YCq-8a-HpF" firstAttribute="trailing" secondItem="ET3-oc-RLX" secondAttribute="trailingMargin" id="jKR-uU-o4x"/>
-                            <constraint firstAttribute="centerX" secondItem="YCq-8a-HpF" secondAttribute="centerX" id="lqH-r3-Q63"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="YCq-8a-HpF"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="L5z-lN-C4f"/>
-                                <exclude reference="lqH-r3-Q63"/>
-                                <exclude reference="0kb-Th-4UB"/>
-                                <exclude reference="jKR-uU-o4x"/>
-                                <exclude reference="gZr-ck-naj"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="YCq-8a-HpF"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="L5z-lN-C4f"/>
-                                <include reference="lqH-r3-Q63"/>
-                                <include reference="0kb-Th-4UB"/>
-                                <include reference="jKR-uU-o4x"/>
-                                <include reference="gZr-ck-naj"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="aWY-nt-9w0"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -578,6 +526,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6n-fX-v4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4177.5" y="533.25"/>
+        </scene>
+        <!--Inno Content View Controller1-->
+        <scene sceneID="Lqm-sH-EtV">
+            <objects>
+                <tableViewController storyboardIdentifier="InnoContentViewController_1" id="Yjx-eY-JgI" customClass="InnoContentViewController_1" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4FF-Ko-zCp">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InnoContentTableViewCell_1" id="BFp-4y-dVb">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BFp-4y-dVb" id="02i-ZX-0vI">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Yjx-eY-JgI" id="mRv-6k-aWg"/>
+                            <outlet property="delegate" destination="Yjx-eY-JgI" id="DVI-pu-RhM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="7kc-6a-ROl"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFQ-3S-xh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3180" y="537.75"/>
         </scene>
         <!--Slide Navigation Controller-->
         <scene sceneID="NqZ-Vd-69d">
@@ -597,6 +572,118 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QXh-vy-5Vh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5128.5" y="533.25"/>
+        </scene>
+        <!--Inno Content View Controller2-->
+        <scene sceneID="WKo-cl-43B">
+            <objects>
+                <viewController storyboardIdentifier="InnoContentViewController_2" id="8K9-tZ-7QY" customClass="InnoContentViewController_2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6cp-v6-GaL"/>
+                        <viewControllerLayoutGuide type="bottom" id="SMT-Wt-QCq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E6Q-Y8-fvF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是第x个视图控制器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbJ-0q-42v">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="SjZ-tV-PvA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="16"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SjZ-tV-PvA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="SjZ-tV-PvA"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JbJ-0q-42v" firstAttribute="leading" secondItem="E6Q-Y8-fvF" secondAttribute="leadingMargin" id="Dy4-uH-PK9"/>
+                            <constraint firstAttribute="centerY" secondItem="JbJ-0q-42v" secondAttribute="centerY" id="RkA-5X-UjF"/>
+                            <constraint firstItem="JbJ-0q-42v" firstAttribute="trailing" secondItem="E6Q-Y8-fvF" secondAttribute="trailingMargin" id="gUz-ws-b56"/>
+                            <constraint firstItem="JbJ-0q-42v" firstAttribute="trailing" secondItem="E6Q-Y8-fvF" secondAttribute="trailingMargin" id="jwG-Tb-avn"/>
+                            <constraint firstAttribute="centerX" secondItem="JbJ-0q-42v" secondAttribute="centerX" id="rVr-Lz-he7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JbJ-0q-42v"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="jwG-Tb-avn"/>
+                                <exclude reference="rVr-Lz-he7"/>
+                                <exclude reference="Dy4-uH-PK9"/>
+                                <exclude reference="gUz-ws-b56"/>
+                                <exclude reference="RkA-5X-UjF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="JbJ-0q-42v"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="jwG-Tb-avn"/>
+                                <include reference="rVr-Lz-he7"/>
+                                <include reference="Dy4-uH-PK9"/>
+                                <include reference="gUz-ws-b56"/>
+                                <include reference="RkA-5X-UjF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="VgT-Ud-tHk"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="centralLabel" destination="JbJ-0q-42v" id="gIV-b0-5ch"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8n-dx-g3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2275.5" y="537.75"/>
+        </scene>
+        <!--意见反馈-->
+        <scene sceneID="FN5-Oy-vbt">
+            <objects>
+                <viewController storyboardIdentifier="InnoMailPageViewController" id="AYf-Zh-2ay" customClass="InnoMailPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a0U-cI-mD4"/>
+                        <viewControllerLayoutGuide type="bottom" id="6rJ-Pp-Dqk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nOT-bV-Ryf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="意见反馈" id="H2n-qN-Nx6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBB-OT-CbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4177.5" y="2209.5"/>
+        </scene>
+        <!--Slide Navigation Controller-->
+        <scene sceneID="ebY-cd-17t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XaU-5d-r6U" customClass="SlideNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KjB-Rn-S39">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AYf-Zh-2ay" kind="relationship" relationship="rootViewController" id="IOH-AE-FRa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f7w-Ks-QTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5128.5" y="2209.5"/>
         </scene>
     </scenes>
     <resources>

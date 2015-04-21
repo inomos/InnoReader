@@ -114,7 +114,7 @@
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id986765023"]];
             break;
         case 4:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"KeZhiMailPageViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoMailPageViewController"];
             [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
                                                                      withSlideOutAnimation:self.slideOutAnimationEnabled
                                                                              andCompletion:nil];
