@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5354EBFE1AE5C95A0026B086 /* InnoArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */; };
+		5354EC011AE5D49A0026B086 /* InnoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */; };
+		5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */; };
 		535C3FBE1AE4E7DF002D532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FBD1AE4E7DF002D532E /* main.m */; };
 		535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FC01AE4E7DF002D532E /* AppDelegate.m */; };
 		535C3FC71AE4E7DF002D532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC51AE4E7DF002D532E /* Main.storyboard */; };
 		535C3FC91AE4E7DF002D532E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FC81AE4E7DF002D532E /* Images.xcassets */; };
 		535C3FCC1AE4E7DF002D532E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FCA1AE4E7DF002D532E /* LaunchScreen.xib */; };
 		535C3FD81AE4E7DF002D532E /* InnoReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FD71AE4E7DF002D532E /* InnoReaderTests.m */; };
-		535C3FE81AE4EDDB002D532E /* InnoLeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FE71AE4EDDB002D532E /* InnoLeftMenuTableViewController.m */; };
-		535C3FEC1AE4F775002D532E /* InnoMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FEB1AE4F775002D532E /* InnoMainTableViewController.m */; };
 		535C40461AE4F8A4002D532E /* BWMCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FF01AE4F8A4002D532E /* BWMCoverView.m */; };
 		535C40471AE4F8A4002D532E /* BWMCoverViewDefaultLoadingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 535C3FF11AE4F8A4002D532E /* BWMCoverViewDefaultLoadingImage.png */; };
 		535C40481AE4F8A4002D532E /* BWMCoverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C3FF31AE4F8A4002D532E /* BWMCoverViewModel.m */; };
@@ -56,8 +57,10 @@
 		535C406C1AE4F8A4002D532E /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40431AE4F8A4002D532E /* WYPopoverController.m */; };
 		535C406D1AE4F8A4002D532E /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40451AE4F8A4002D532E /* WYStoryboardPopoverSegue.m */; };
 		535C40751AE4FAA7002D532E /* InnoHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40701AE4FAA7002D532E /* InnoHelperClass.m */; };
-		535C40761AE4FAA7002D532E /* KeZhiStoryEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40721AE4FAA7002D532E /* KeZhiStoryEntity.m */; };
-		535C40771AE4FAA7002D532E /* KeZhiStoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40741AE4FAA7002D532E /* KeZhiStoryTableViewCell.m */; };
+		535C40761AE4FAA7002D532E /* InnoArticleEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40721AE4FAA7002D532E /* InnoArticleEntity.m */; };
+		535C407A1AE50492002D532E /* InnoLeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C40791AE50492002D532E /* InnoLeftMenuTableViewController.m */; };
+		535C407D1AE53524002D532E /* InnoArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C407C1AE53524002D532E /* InnoArticleTableViewCell.m */; };
+		535C40801AE53768002D532E /* InnoMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C407F1AE53768002D532E /* InnoMainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoArticleDetailViewController.h; path = "View Controllers/InnoArticleDetailViewController.h"; sourceTree = "<group>"; };
+		5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoArticleDetailViewController.m; path = "View Controllers/InnoArticleDetailViewController.m"; sourceTree = "<group>"; };
+		5354EBFF1AE5D49A0026B086 /* InnoSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSecondViewController.h; path = "View Controllers/InnoSecondViewController.h"; sourceTree = "<group>"; };
+		5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSecondViewController.m; path = "View Controllers/InnoSecondViewController.m"; sourceTree = "<group>"; };
+		5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoSearchPickerViewController.h; path = "View Controllers/InnoSearchPickerViewController.h"; sourceTree = "<group>"; };
+		5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoSearchPickerViewController.m; path = "View Controllers/InnoSearchPickerViewController.m"; sourceTree = "<group>"; };
 		535C3FB81AE4E7DF002D532E /* InnoReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnoReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C3FBC1AE4E7DF002D532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535C3FBD1AE4E7DF002D532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,10 +91,6 @@
 		535C3FD11AE4E7DF002D532E /* InnoReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnoReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C3FD61AE4E7DF002D532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535C3FD71AE4E7DF002D532E /* InnoReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnoReaderTests.m; sourceTree = "<group>"; };
-		535C3FE61AE4EDDB002D532E /* InnoLeftMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoLeftMenuTableViewController.h; path = "View Controllers/InnoLeftMenuTableViewController.h"; sourceTree = "<group>"; };
-		535C3FE71AE4EDDB002D532E /* InnoLeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoLeftMenuTableViewController.m; path = "View Controllers/InnoLeftMenuTableViewController.m"; sourceTree = "<group>"; };
-		535C3FEA1AE4F775002D532E /* InnoMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoMainTableViewController.h; path = "View Controllers/InnoMainTableViewController.h"; sourceTree = "<group>"; };
-		535C3FEB1AE4F775002D532E /* InnoMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoMainTableViewController.m; path = "View Controllers/InnoMainTableViewController.m"; sourceTree = "<group>"; };
 		535C3FEF1AE4F8A4002D532E /* BWMCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMCoverView.h; sourceTree = "<group>"; };
 		535C3FF01AE4F8A4002D532E /* BWMCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMCoverView.m; sourceTree = "<group>"; };
 		535C3FF11AE4F8A4002D532E /* BWMCoverViewDefaultLoadingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BWMCoverViewDefaultLoadingImage.png; sourceTree = "<group>"; };
@@ -169,10 +174,14 @@
 		535C40451AE4F8A4002D532E /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
 		535C406F1AE4FAA7002D532E /* InnoHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnoHelperClass.h; sourceTree = "<group>"; };
 		535C40701AE4FAA7002D532E /* InnoHelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnoHelperClass.m; sourceTree = "<group>"; };
-		535C40711AE4FAA7002D532E /* KeZhiStoryEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeZhiStoryEntity.h; sourceTree = "<group>"; };
-		535C40721AE4FAA7002D532E /* KeZhiStoryEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeZhiStoryEntity.m; sourceTree = "<group>"; };
-		535C40731AE4FAA7002D532E /* KeZhiStoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeZhiStoryTableViewCell.h; sourceTree = "<group>"; };
-		535C40741AE4FAA7002D532E /* KeZhiStoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeZhiStoryTableViewCell.m; sourceTree = "<group>"; };
+		535C40711AE4FAA7002D532E /* InnoArticleEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnoArticleEntity.h; sourceTree = "<group>"; };
+		535C40721AE4FAA7002D532E /* InnoArticleEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnoArticleEntity.m; sourceTree = "<group>"; };
+		535C40781AE50492002D532E /* InnoLeftMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoLeftMenuTableViewController.h; path = "View Controllers/InnoLeftMenuTableViewController.h"; sourceTree = "<group>"; };
+		535C40791AE50492002D532E /* InnoLeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoLeftMenuTableViewController.m; path = "View Controllers/InnoLeftMenuTableViewController.m"; sourceTree = "<group>"; };
+		535C407B1AE53524002D532E /* InnoArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnoArticleTableViewCell.h; sourceTree = "<group>"; };
+		535C407C1AE53524002D532E /* InnoArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnoArticleTableViewCell.m; sourceTree = "<group>"; };
+		535C407E1AE53768002D532E /* InnoMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoMainTableViewController.h; path = "View Controllers/InnoMainTableViewController.h"; sourceTree = "<group>"; };
+		535C407F1AE53768002D532E /* InnoMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoMainTableViewController.m; path = "View Controllers/InnoMainTableViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,12 +223,12 @@
 		535C3FBA1AE4E7DF002D532E /* InnoReader */ = {
 			isa = PBXGroup;
 			children = (
-				535C406E1AE4FAA7002D532E /* Model */,
 				535C3FED1AE4F884002D532E /* Libraries */,
 				535C3FE91AE4EDDF002D532E /* View Controllers */,
 				535C3FC51AE4E7DF002D532E /* Main.storyboard */,
 				535C3FC81AE4E7DF002D532E /* Images.xcassets */,
 				535C3FCA1AE4E7DF002D532E /* LaunchScreen.xib */,
+				535C406E1AE4FAA7002D532E /* Model */,
 				535C3FBB1AE4E7DF002D532E /* Supporting Files */,
 			);
 			path = InnoReader;
@@ -256,10 +265,16 @@
 		535C3FE91AE4EDDF002D532E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				535C3FE61AE4EDDB002D532E /* InnoLeftMenuTableViewController.h */,
-				535C3FE71AE4EDDB002D532E /* InnoLeftMenuTableViewController.m */,
-				535C3FEA1AE4F775002D532E /* InnoMainTableViewController.h */,
-				535C3FEB1AE4F775002D532E /* InnoMainTableViewController.m */,
+				535C40781AE50492002D532E /* InnoLeftMenuTableViewController.h */,
+				535C40791AE50492002D532E /* InnoLeftMenuTableViewController.m */,
+				535C407E1AE53768002D532E /* InnoMainTableViewController.h */,
+				535C407F1AE53768002D532E /* InnoMainTableViewController.m */,
+				5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */,
+				5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */,
+				5354EBFF1AE5D49A0026B086 /* InnoSecondViewController.h */,
+				5354EC001AE5D49A0026B086 /* InnoSecondViewController.m */,
+				5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */,
+				5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -419,10 +434,10 @@
 			children = (
 				535C406F1AE4FAA7002D532E /* InnoHelperClass.h */,
 				535C40701AE4FAA7002D532E /* InnoHelperClass.m */,
-				535C40711AE4FAA7002D532E /* KeZhiStoryEntity.h */,
-				535C40721AE4FAA7002D532E /* KeZhiStoryEntity.m */,
-				535C40731AE4FAA7002D532E /* KeZhiStoryTableViewCell.h */,
-				535C40741AE4FAA7002D532E /* KeZhiStoryTableViewCell.m */,
+				535C40711AE4FAA7002D532E /* InnoArticleEntity.h */,
+				535C40721AE4FAA7002D532E /* InnoArticleEntity.m */,
+				535C407B1AE53524002D532E /* InnoArticleTableViewCell.h */,
+				535C407C1AE53524002D532E /* InnoArticleTableViewCell.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -532,30 +547,32 @@
 				535C40651AE4F8A4002D532E /* UIView+WebCacheOperation.m in Sources */,
 				535C40681AE4F8A4002D532E /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				535C40751AE4FAA7002D532E /* InnoHelperClass.m in Sources */,
+				5354EC011AE5D49A0026B086 /* InnoSecondViewController.m in Sources */,
 				535C404F1AE4F8A4002D532E /* MJRefreshGifHeader.m in Sources */,
 				535C40521AE4F8A4002D532E /* MJRefreshLegendHeader.m in Sources */,
 				535C40691AE4F8A4002D532E /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				535C40631AE4F8A4002D532E /* UIImageView+HighlightedWebCache.m in Sources */,
 				535C404B1AE4F8A4002D532E /* MJRefreshComponent.m in Sources */,
-				535C3FEC1AE4F775002D532E /* InnoMainTableViewController.m in Sources */,
 				535C406A1AE4F8A4002D532E /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				535C404E1AE4F8A4002D532E /* MJRefreshGifFooter.m in Sources */,
+				535C407A1AE50492002D532E /* InnoLeftMenuTableViewController.m in Sources */,
 				535C405D1AE4F8A4002D532E /* SDWebImageManager.m in Sources */,
 				535C405A1AE4F8A4002D532E /* SDWebImageDecoder.m in Sources */,
 				535C40511AE4F8A4002D532E /* MJRefreshLegendFooter.m in Sources */,
-				535C3FE81AE4EDDB002D532E /* InnoLeftMenuTableViewController.m in Sources */,
 				535C406C1AE4F8A4002D532E /* WYPopoverController.m in Sources */,
 				535C405E1AE4F8A4002D532E /* SDWebImagePrefetcher.m in Sources */,
 				535C40641AE4F8A4002D532E /* UIImageView+WebCache.m in Sources */,
 				535C40461AE4F8A4002D532E /* BWMCoverView.m in Sources */,
 				535C40481AE4F8A4002D532E /* BWMCoverViewModel.m in Sources */,
+				5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */,
 				535C404C1AE4F8A4002D532E /* MJRefreshConst.m in Sources */,
 				535C406B1AE4F8A4002D532E /* SlideNavigationController.m in Sources */,
 				535C40601AE4F8A4002D532E /* UIImage+GIF.m in Sources */,
+				5354EBFE1AE5C95A0026B086 /* InnoArticleDetailViewController.m in Sources */,
 				535C40621AE4F8A4002D532E /* UIImage+WebP.m in Sources */,
 				535C40571AE4F8A4002D532E /* NSData+ImageContentType.m in Sources */,
 				535C40591AE4F8A4002D532E /* SDWebImageCompat.m in Sources */,
-				535C40761AE4FAA7002D532E /* KeZhiStoryEntity.m in Sources */,
+				535C40761AE4FAA7002D532E /* InnoArticleEntity.m in Sources */,
 				535C40541AE4F8A4002D532E /* UIScrollView+MJRefresh.m in Sources */,
 				535C40501AE4F8A4002D532E /* MJRefreshHeader.m in Sources */,
 				535C40581AE4F8A4002D532E /* SDImageCache.m in Sources */,
@@ -563,10 +580,11 @@
 				535C3FC11AE4E7DF002D532E /* AppDelegate.m in Sources */,
 				535C40551AE4F8A4002D532E /* UIView+MJExtension.m in Sources */,
 				535C40611AE4F8A4002D532E /* UIImage+MultiFormat.m in Sources */,
+				535C407D1AE53524002D532E /* InnoArticleTableViewCell.m in Sources */,
+				535C40801AE53768002D532E /* InnoMainTableViewController.m in Sources */,
 				535C405F1AE4F8A4002D532E /* UIButton+WebCache.m in Sources */,
 				535C40531AE4F8A4002D532E /* UIScrollView+MJExtension.m in Sources */,
 				535C40661AE4F8A4002D532E /* SlideNavigationContorllerAnimatorFade.m in Sources */,
-				535C40771AE4FAA7002D532E /* KeZhiStoryTableViewCell.m in Sources */,
 				535C40561AE4F8A4002D532E /* MKAnnotationView+WebCache.m in Sources */,
 				535C40671AE4F8A4002D532E /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				535C405C1AE4F8A4002D532E /* SDWebImageDownloaderOperation.m in Sources */,

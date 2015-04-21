@@ -9,13 +9,13 @@
 #import "InnoHelperClass.h"
 
 @implementation InnoHelperClass
-+ (NSURL *)getURLForStory:(NSString *)storyId
++ (NSURL *)getURLForArticle:(NSString *)articleId
 {
-    NSString *urlWithParams = [NSString stringWithFormat:@"http://daily.zhihu.com/api/4/news/%@",[storyId stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    NSString *urlWithParams = [NSString stringWithFormat:@"http://daily.zhihu.com/api/4/news/%@",[articleId stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     return [NSURL URLWithString:urlWithParams];
 }
 
-+ (NSURL *)getURLForTopStories
++ (NSURL *)getURLForTopArticles
 {
     return [NSURL URLWithString:@"http://news-at.zhihu.com/api/4/news/latest"];
 }

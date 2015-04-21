@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KeZhiStoryEntity : NSObject
-@property (nonatomic, strong) NSString *storyId;
+@interface InnoArticleEntity : NSObject
+@property (nonatomic, strong) NSString *articleId;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *dateString;
 @property (nonatomic, strong) NSArray *thumbnails;

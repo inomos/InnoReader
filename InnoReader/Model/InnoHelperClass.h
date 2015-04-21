@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface InnoHelperClass : NSObject
-+ (NSURL *)getURLForStory: (NSString *)storyId;
-+ (NSURL *)getURLForTopStories;
++ (NSURL *)getURLForArticle: (NSString *)articleId;
++ (NSURL *)getURLForTopArticles;
 + (NSURL *)getURLForTheme: (NSString *)themeId;
 + (NSURL *)getURLForTheme: (NSString *)themeId Before:(NSString *)storyID;
 + (NSString *)getFormattedDateString: (NSString *)dateString;

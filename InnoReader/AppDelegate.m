@@ -15,10 +15,41 @@
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initAppearance];
+    [self initStoryBoard];
+    sleep(2);
+    
     return YES;
 }
+
+- (void)initAppearance
+{
+    UIColor *byteClubBlue = [UIColor colorWithRed:61/255.0f
+                                            green:154/255.0f
+                                             blue:232/255.0f
+                                            alpha:1.0f];
+    
+    // Set appearance info
+    [[UITabBar appearance] setBarTintColor:byteClubBlue];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
+    [[UINavigationBar appearance] setBarTintColor:byteClubBlue];
+    
+    [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
+    [[UIToolbar appearance] setBarTintColor:byteClubBlue];
+}
+
+- (void)initStoryBoard {
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    
+    InnoLeftMenuTableViewController *leftMenu = (InnoLeftMenuTableViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"InnoLeftMenuTableViewController"];
+    
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    [SlideNavigationController sharedInstance].menuRevealAnimationDuration = .18;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9E187FF9-34BB-4F6B-BB46-725A227FF008</string>
 	<key>IDESourceControlProjectName</key>
-	<string>InnoReader</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C58A59548E3A4B98772EFC3D267EE3797609BE94</key>
 		<string>https://github.com/inomos/InnoReader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>InnoReader.xcodeproj</string>
+	<string>InnoReader.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C58A59548E3A4B98772EFC3D267EE3797609BE94</key>

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WYPopoverController.h"
 #import "SlideNavigationController.h"
+#import "InnoSearchPickerViewController.h"
 
-@interface InnoMainTableViewController : UIViewController
-
+@interface InnoMainTableViewController : UITableViewController <WYPopoverControllerDelegate, SearchPickerDelegate>
+@property (nonatomic, strong) InnoSearchPickerViewController *searchPickerView;
+@property (nonatomic, strong) WYPopoverController *searchPickerPopup;
 @end

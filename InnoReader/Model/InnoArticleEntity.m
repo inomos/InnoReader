@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Koozh Tech. All rights reserved.
 //
 
-#import "KeZhiStoryEntity.h"
+#import "InnoArticleEntity.h"
 
-@implementation KeZhiStoryEntity
+@implementation InnoArticleEntity
 
 - (id)initWithJSONData:(NSDictionary *)data
 {
     self = [super init];
     if (self) {
-        self.storyId = [data[@"id"] stringValue];
+        self.articleId = [data[@"id"] stringValue];
         self.title = data[@"title"];
         self.thumbnails = data[@"images"];
     }
