@@ -66,11 +66,11 @@
             cell.textLabel.text = @"首页";
             break;
         case 1:
-            cell.textLabel.text = @"搜索";
+            cell.textLabel.text = @"第二";
             break;
             
         case 2:
-            cell.textLabel.text = @"清理";
+            cell.textLabel.text = @"第三";
             break;
             
         case 3:
