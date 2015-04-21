@@ -111,7 +111,10 @@
             break;
             
         case 3:
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id986765023"]];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoThirdViewController"];
+            [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
+                                                                     withSlideOutAnimation:self.slideOutAnimationEnabled
+                                                                             andCompletion:nil];
             break;
         case 4:
             vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoMailPageViewController"];
