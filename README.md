@@ -15,23 +15,6 @@ InnoReader 阅读器框架集成了多个精选开源作品于一身，实现了
 6. 加载提示框 - MBProgressHUD https://github.com/jdg/MBProgressHUD
 7. 弹出窗 - WYPopoverController https://github.com/jdg/MBProgressHUD
 
-## History
-
-TODO: Write history
-
-## Installation
-
-TODO: Describe the installation process
-
-## Usage
-
-TODO: Write usage instructions
-
-
-## Credits
-
-TODO: Write credits
-
 ## License
 
 Copyright (c) 2015 CHONG LI Licensed under the MIT license.
