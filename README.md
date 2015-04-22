@@ -14,6 +14,7 @@ InnoReader 阅读器框架集成了多个精选开源作品于一身，实现了
 5. 图片加载 - SDWebImage https://github.com/rs/SDWebImage
 6. 加载提示框 - MBProgressHUD https://github.com/jdg/MBProgressHUD
 7. 弹出窗 - WYPopoverController https://github.com/jdg/MBProgressHUD
+8. Demo 所用 API - 知乎日报 API v4.0
 
 ## License
 
