@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53404EDB1AE6AE80001C0305 /* InnoFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53404EDA1AE6AE80001C0305 /* InnoFourthViewController.m */; };
 		5354EBFE1AE5C95A0026B086 /* InnoArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */; };
 		5354EC011AE5D49A0026B086 /* InnoThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */; };
 		5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354EC031AE5D80B0026B086 /* InnoSearchPickerViewController.m */; };
@@ -81,6 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53404ED91AE6AE80001C0305 /* InnoFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoFourthViewController.h; path = "View Controllers/InnoFourthViewController.h"; sourceTree = "<group>"; };
+		53404EDA1AE6AE80001C0305 /* InnoFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoFourthViewController.m; path = "View Controllers/InnoFourthViewController.m"; sourceTree = "<group>"; };
 		5354EBFC1AE5C95A0026B086 /* InnoArticleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoArticleDetailViewController.h; path = "View Controllers/InnoArticleDetailViewController.h"; sourceTree = "<group>"; };
 		5354EBFD1AE5C95A0026B086 /* InnoArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnoArticleDetailViewController.m; path = "View Controllers/InnoArticleDetailViewController.m"; sourceTree = "<group>"; };
 		5354EBFF1AE5D49A0026B086 /* InnoThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnoThirdViewController.h; path = "View Controllers/InnoThirdViewController.h"; sourceTree = "<group>"; };
@@ -309,6 +312,8 @@
 				5354EC0E1AE60E860026B086 /* InnoSecondViewController.m */,
 				5354EBFF1AE5D49A0026B086 /* InnoThirdViewController.h */,
 				5354EC001AE5D49A0026B086 /* InnoThirdViewController.m */,
+				53404ED91AE6AE80001C0305 /* InnoFourthViewController.h */,
+				53404EDA1AE6AE80001C0305 /* InnoFourthViewController.m */,
 				5354EC161AE64FBB0026B086 /* InnoMailPageViewController.h */,
 				5354EC171AE64FBB0026B086 /* InnoMailPageViewController.m */,
 				5354EC021AE5D80B0026B086 /* InnoSearchPickerViewController.h */,
@@ -613,6 +618,7 @@
 				535C40641AE4F8A4002D532E /* UIImageView+WebCache.m in Sources */,
 				5354EC0B1AE602130026B086 /* CarbonSwipeRefresh.m in Sources */,
 				535C40461AE4F8A4002D532E /* BWMCoverView.m in Sources */,
+				53404EDB1AE6AE80001C0305 /* InnoFourthViewController.m in Sources */,
 				535C40481AE4F8A4002D532E /* BWMCoverViewModel.m in Sources */,
 				5354EC041AE5D80B0026B086 /* InnoSearchPickerViewController.m in Sources */,
 				535C404C1AE4F8A4002D532E /* MJRefreshConst.m in Sources */,

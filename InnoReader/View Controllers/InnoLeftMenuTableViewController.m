@@ -111,7 +111,7 @@
             break;
             
         case 3:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoThirdViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoTabViewController"];
             [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
                                                                      withSlideOutAnimation:self.slideOutAnimationEnabled
                                                                              andCompletion:nil];

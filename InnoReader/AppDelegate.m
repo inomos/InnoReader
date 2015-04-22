@@ -33,7 +33,7 @@
                                             alpha:1.0f];
     
     // Set appearance info
-    [[UITabBar appearance] setBarTintColor:byteClubBlue];
+    [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UINavigationBar appearance] setBarTintColor:byteClubBlue];
     
