@@ -174,10 +174,10 @@
                                     
                                     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
                                     //SecondViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"SecondViewController"];
-                                    InnoArticleDetailViewController *articleDetailVC = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoArticleDetailViewController"];
                                     
                                     dispatch_async(dispatch_get_main_queue(), ^{
                                         BWMCoverView *coverView = [BWMCoverView coverViewWithModels:realArray andFrame:self.coverFlowImageView.frame andPlaceholderImageNamed:BWMCoverViewDefaultImage andClickdCallBlock:^(NSInteger index) {
+                                            InnoArticleDetailViewController *articleDetailVC = [mainStoryboard instantiateViewControllerWithIdentifier: @"InnoArticleDetailViewController"];
                                             //NSLog(@"你点击了第%d个图片", index);
                                             articleDetailVC.session = _session;
                                             articleDetailVC.article = articlesRetrieved[index];
